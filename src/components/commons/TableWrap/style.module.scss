@@ -1,0 +1,32 @@
+.table_wrap {
+    border-radius: 4px;
+  
+    & :global(.ant-table-thead>tr>th) {
+        color: #8C8C8C !important;
+        font-weight: 700 !important;
+        background: #E9F1ED !important;
+        font-size: 14px;
+        border-bottom: 1px solid #BFBFBF;
+        padding: 0px 16px;
+        height: 32px;
+    }
+
+    & :global(.ant-table-tbody>tr>td) {
+        border-bottom: 1px solid #BFBFBF;
+    }
+
+    & :global(.ant-pagination-item-active) {
+        border-color: #D46B08;
+        a {
+            color: #D46B08;
+        }
+    }
+
+    & :global(.ant-pagination-item:hover) {
+        border-color: #D46B08;
+        a {
+            color: #D46B08;
+        }
+    }
+   
+}

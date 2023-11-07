@@ -1,0 +1,44 @@
+.tabButtonWrap {
+    position: relative;
+	padding: 1.5em 2em 1.35em;
+    width: 220px;
+    cursor: pointer;
+    text-align: center;
+    &::before {
+        content: ''; /* To generate the box */
+        position: absolute;
+        top: 0; right: 0; bottom: .5em; left: 0;
+        z-index: -1;
+        border-bottom: none;
+        border-radius: 20px 20px 0 0;
+        background: #F5F5F5;
+        transform-origin: bottom;
+        // box-shadow: inset 0 -3px 3px rgba(0,0,0,0.05);
+    }
+    
+    .textEnable {
+        color: #AD4E00;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .textDisable {
+        color: #595959;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.btnEnable {
+    z-index: 2;
+    &::before {
+        box-shadow: none;
+        background: #FFF;
+    }
+}
+
+.nthBtn {
+    margin-left: -10px;
+    transform: perspective(10px) rotateX(2deg);
+}
+

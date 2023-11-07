@@ -1,0 +1,33 @@
+.button__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 16px;
+	gap: 10px;
+
+	background: var(--button-secondary-bg-color);
+	color: var(--button-secondary-color);
+	border: 1px solid var(--button-secondary-border-color);
+
+	&:hover, &:focus {
+		background: var(--button-secondary-bg-color);
+		color: var(--button-secondary-color);
+		border: 1px solid var(--button-secondary-border-color);
+	}
+
+	&__primary {
+		background: var(--button-primary-bg-color);
+		color: var(--button-primary-color);
+		border: 1px solid var(--button-primary-border-color);
+
+		&:hover, &:focus {
+			background: var(--button-primary-bg-color);
+			color: var(--button-primary-color);
+			border: 1px solid var(--button-primary-border-color);
+		}
+	}
+
+	span {
+		line-height: 1;
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "name": "minnato",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext ts,tsx --fix"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.17.2",
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^4.24.14",
+    "axios": "^1.6.0",
+    "clsx": "^2.0.0",
+    "crypto-js": "^4.2.0",
+    "i18next": "^23.6.0",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "next": "14.0.1",
+    "next-i18next": "^15.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-i18next": "^13.3.1",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "^14.0.1",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "typescript": "^5"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint",
+      "git add"
+    ]
+  }
+}

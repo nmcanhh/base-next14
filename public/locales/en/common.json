@@ -1,0 +1,60 @@
+{
+  "COMMON": {
+    "PAGE_TITLE": "Minnato",
+    "BUTTON_CREATE": "Create",
+    "BUTTON_UPDATE": "Update",
+    "BUTTON_CANCEL": "Cancel"
+  },
+
+  "C_SIDEBAR": {
+    "USER_MANAGER": "User Manager",
+    "JOB_LIST": "Job List",
+    "REQUEST": "Request",
+    "CONTRACT": "Contract",
+    "FAQ": "FAQ ",
+    "GUIDELINE ": "Guideline ",
+    "CONFIRM_RULE": "Confirm Rule",
+    "CATEGORY": "Category",
+    "SETTING": "Setting",
+    "ANNOUNCEMENT": "Announcement"
+  },
+
+  "C_BREADCRUMB": {
+    "HOME": "Home",
+    "CONTRACT": "Contract",
+    "USER_MANAGER": "User Manager",
+    "USER_DETAILS": "User Details",
+    "JOB_MANAGER": "Job Manager",
+    "PROFILE": "Profile",
+    "FAQ": "FAQ",
+    "CATEGORY": "Category",
+    "GUIDELINE": "Guideline",
+    "CONFIRM_RULE": "Confirm Rule",
+    "SETTING": "Setting",
+    "SCENARIO": "Scenario",
+    "ANNOUNCEMENT": "Announcement"
+  },
+
+  "P_USER_MANAGER": {
+    "TITLE": "User Manager",
+    "TAB_ACTIVE": "Active",
+    "TAB_AWAITING": "Awaiting",
+    "LABEL_USERNAME": "User name",
+    "PLACEHOLDER_SEARCH": "Search",
+    "BUTTON_SEARCH": "Search",
+    "HEADER_USERNAME": "User name",
+    "HEADER_EMAIL": "Email",
+    "HEADER_NAME": "Name",
+    "HEADER_TAG": "Tag",
+    "HEADER_JOB_TITLE": "Job title",
+    "HEADER_STATUS": "Status",
+
+    "C_COMMENT_MODAL": {
+      "TITLE": "Comment",
+      "LABEL_JOB_NAME": "Job Name",
+      "LABEL_CONTRACTOR_NAME": "Contractor name",
+      "BUTTON_REPLY": "Reply",
+      "PLACEHOLDER_ADD_COMMENT": "Add comment"
+    }
+  }
+}
