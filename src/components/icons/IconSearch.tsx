@@ -1,6 +1,6 @@
 import { ISvg } from "@/interfaces/common";
 
-export const IconSearch: React.FC<ISvg> = (props) => {
+const IconSearch: React.FC<ISvg> = (props) => {
   const { fill = "none", width = 18, height = 18 } = props;
   return (
     <svg
@@ -19,3 +19,5 @@ export const IconSearch: React.FC<ISvg> = (props) => {
     </svg>
   );
 };
+
+export default IconSearch;
